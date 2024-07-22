@@ -1,9 +1,9 @@
-working = https://youtu.be/3x5tlXe0qpg
+#working = https://youtu.be/3x5tlXe0qpg
 
-Hotel Chatbot
+#Hotel Chatbot
 This project is a hotel chatbot application that uses the OpenAI API to provide a conversational interface for hotel services. The project is structured into backend and frontend directories, with the backend running on Node.js and the frontend built with React.
 
-File Structure
+#File Structure
 scss
 Copy code
 hotel-chatbot/
@@ -14,10 +14,10 @@ hotel-chatbot/
 └── frontend/
     └── src/
         └── (React project files)
-Backend
+#Backend
 The backend is built using Node.js and handles API requests to OpenAI for processing the chatbot conversations.
 
-Installation
+#Installation
 Navigate to the backend directory:
 
 bash
@@ -42,10 +42,10 @@ node server.js
 server.js
 This file contains the server code that interacts with the OpenAI API. It listens for incoming requests from the frontend, forwards them to OpenAI, and sends the response back to the frontend.
 
-Frontend
+#Frontend
 The frontend is built using React and provides the user interface for interacting with the chatbot.
 
-Installation
+#Installation
 Navigate to the frontend directory:
 
 bash
@@ -65,7 +65,7 @@ npm start
 src
 This directory contains the React components and other files needed for the frontend application.
 
-How to Use
+#How to Use
 Ensure both the backend and frontend servers are running.
 Open your web browser and navigate to http://localhost:3000 to interact with the hotel chatbot.
 Features
